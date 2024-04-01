@@ -110,3 +110,108 @@ harta karun.
 Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data
 yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa
 menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.
+
+  ""JobSheet 4 - Doubly Linked List""
+
+Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama
+dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly
+link list memiliki 2 arah data yani next dan previous.
+Kelebihan Doubly link list dibandingkan dengan Single link list
+1. DLL bisa berjalan dalam 2 arah ke depan dan kebelakang
+2. Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang
+menunjuk ke simpul yang akan dihapus
+3. Dapat melakukan proses insert() simpul lebih efisien
+Dalam single link list penghapusan simpul, pointer simpul data sebelumnya diperlukan dan untuk
+mendapatkannya terkadang list data diulang dari awal. Berbeda dengan doubly link list kita langsung
+dapat pointer simpul data sebelumnya menggunakan pointer previous.
+Kelemahan Dobly link list
+1. Setiap simpul DLL membutuhkan ruang memory tambahan untuk pointer 2 pointer
+2. Setiap operasi yang dilakukan harus mencantumkan pointer simpul sebelumnya.
+Jenis proses Insertion()
+1. Penambahan simpul di depan
+2. Penambahan setelah simpul yang ditentukan
+3. Di simpul yang paling akhir
+4. Penambahan sebelum simpul yang ditentukan
+
+
+    ""JobSheet 5 - Double Linked List & Circular Linked List""
+
+    ""Double Linked List""
+   
+  Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.  
+Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang
+berurutan pada arah tail ke head. Double linked list mempunyai fleksibilitas yang lebih tinggi daripada
+single linked list dalam perpindahan pada list. 
+
+  ""Circular Linked List""
+
+  Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen.
+Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular
+list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada
+double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
+
+    ""JobSheet 6 - Stack""
+
+    ""Stack""
+
+  Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan
+demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen
+terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi,
+untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan untuk memindahkan
+dari tempat yang atas tersebut, disebut pop.
+
+
+  ""Stack dengan Array""
+
+Ada beberapa cara untuk menyajikan sebuah stack tergantung pada permasalahan yang akan
+diselesaikan. Bentuk penyajian stack bisa menggunakan tipe data array, tetapi sebenarnya penyajian
+stack menggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis,
+sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Meskipun demikian, array
+bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal
+dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Pada suatu saat, ukuran
+stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow.
+Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian
+stack menggunakan array, yaitu Single stack dan Double stack.
+
+   ""JobSheet 6 - Stack""
+
+    ""Konsep Queue""
+
+Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli
+tiket pergi nonton ke bioskop. Dimana orang pertama yang memasuki antrian adalah yang pertama
+mendapat tiket masuk. Antrian menggunakan prinsip FIFO First in First Out. Item yang mendapatkan
+giliran pertama adalah item yang pertama keluar.
+
+  ""Spesifikasi Queue""
+  
+  Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
+sebgai berikut :
+• Enqueue: Add element to end of queue
+• Dequeue: Remove element from front of queue
+• IsEmpty: Check if queue is empty
+• IsFull: Check if queue is full
+• Peek: Get the value of the front of queue without removing it
+
+  ""Cara kerja Queue""
+  
+Sebuah antrian memiliki proses sebagai berikut :
+1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan
+terakhir dalam antrian.
+2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
+3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru di
+posisi yang ditunjuk oleh REAR.
+4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT dan
+meningkatkan indeks FRONT.
+5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
+6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
+7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
+8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
+
+
+
+
+
+
+  
+
+
