@@ -10,19 +10,19 @@
 
 📑 Semester : 2
 
-<li><a href="#js1">Job Sheet 1 - Algoritma, Pemrograman  IDE</a></li>
-  <li><a href="#js2">Job Sheet 2 - Pemrograman Dasar C</a></li>
-  <li><a href="#js3">Job Sheet 3 - Variabel, Konstanta  Tipe Data</a></li>
-  <li><a href="#js4">Job Sheet 4 - Operator</a></li>
-  <li><a href="#js5">Job Sheet 5 - FLow Control (Decision Making)</a></li>
-  <li><a href="#js6">Job Sheet 6 - Flow Control</a></li>
-  <li><a href="#js7">Job Sheet 7 - Array</a></li>
+<li><a href="#js1">Job Sheet 1 - Pengenalan Struktur Data</a></li>
+  <li><a href="#js2">Job Sheet 2 - Array, Pointer, Structure</a></li>
+  <li><a href="#js3">Job Sheet 3 - Single Linked List</a></li>
+  <li><a href="#js4">Job Sheet 4 - Doubly Linked List</a></li>
+  <li><a href="#js5">Job Sheet 5 -  Double Linked List & Circular Linked List</a></li>
+  <li><a href="#js6">Job Sheet 6 - Stack</a></li>
+  <li><a href="#js7">Job Sheet 7 - Queue/Antrian</a></li>
   <li><a href="#js8">Job Sheet 8 - Fungsi dan Prosedur</a></li>
   <li><a href="#js9">Job Sheet 9 - Pointer</a></li>
   <li><a href="#js10">Job Sheet 10 - Enum and Struct</a></li>
   <li><a href="#js11">Job Sheet 11 - File Handling</a></li>
   
-<h2 id="#js1">JobSheet 1 - Pengenalan Struktur Data</h2>
+<h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
 
 Pemograman dalam struktur data ada beberapa macam. Salah satunya
 adalah pemograman C. Dalam pemograman ini biasanya menggunakan variable
@@ -63,7 +63,7 @@ Pemakaian struktur data yang tepat didalam proses pemrograman akan
 menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program
 secara keseluruhan lebih efisien dan sederhana.
 
-<h2 id="#js1">JobSheet 2 - Array, Pointer, Structure</h2>
+<h2 id="js2">JobSheet 2 - Array, Pointer, Structure</h2>
 
   ""Array""
 Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing
@@ -91,7 +91,7 @@ memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk
 kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak
 secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.
 
-<h2 id="#js1">JobSheet 3 - Single Linked List</h2>
+<h2 id="js3">JobSheet 3 - Single Linked List</h2>
 
   ""Simpul/Nodes""
 Sebuah simpul/node berisi alamat dan kumpulan data, dalam sebuah
@@ -123,7 +123,7 @@ Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data
 yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa
 menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.
 
-  <h2 id="#js1">JobSheet 4 - Doubly Linked List</h2>
+  <h2 id="js4">JobSheet 4 - Doubly Linked List</h2>
 
 Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama
 dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly
@@ -146,7 +146,7 @@ Jenis proses Insertion()
 4. Penambahan sebelum simpul yang ditentukan
 
 
-     <h2 id="#js1">JobSheet 5 - Double Linked List & Circular Linked List
+     <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
 
     ""Double Linked List""
    
@@ -162,7 +162,7 @@ Circular list bisa berupa single linked list atau double linked list, tetapi tid
 list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada
 double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
 
-    <h2 id="#js1">JobSheet 6 - Stack</h2>
+    <h2 id="js6">JobSheet 6 - Stack</h2>
 
     ""Stack""
 
@@ -185,7 +185,7 @@ stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan te
 Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian
 stack menggunakan array, yaitu Single stack dan Double stack.
 
-   <h2 id="#js1">JobSheet 7 - Queue/Antrian</h2>
+   <h2 id="js7">JobSheet 7 - Queue/Antrian</h2>
 
     ""Konsep Queue""
 
