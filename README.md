@@ -24,7 +24,7 @@
   
 <h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
 
-Pemograman dalam struktur data ada beberapa macam. Salah satunya
+<p>Pemograman dalam struktur data ada beberapa macam. Salah satunya
 adalah pemograman C. Dalam pemograman ini biasanya menggunakan variable
 Array, Struktur dan Linked List. Membahas tentang 3 variabel tersebut dimana
 ketiga variable mempunyai ciri dan umum yang berbeda sesuai dengan tipe file
@@ -32,21 +32,21 @@ yang di gunakan pembaca. Seperti array yang menggunakan satu dimensi dan dua
 dimensi serta 3 dimensi dimana sangat berbeda dengan struktur yang
 menggunakan tingkatan prosedur. Pemograman ini merupakan pemograman yang
 berbeda dari pemograman lainnya misalnya VB, Delphi atau Pascal namun
-perbedaan juga tidak begitu signifikan pada pemograman pascal.
+perbedaan juga tidak begitu signifikan pada pemograman pascal.</p>
 
 <b>Struktur Data</b>
 
-  Struktur data adalah cara untuk mengorganisir dan menyimpan data dalam sebuah sistem komputer sehingga data tersebut dapat diakses dan dimanipulasi dengan efisien. Struktur data merupakan konsep dasar dalam ilmu komputer dan pemrograman yang memungkinkan pengembang perangkat lunak untuk menyusun data dalam bentuk yang sesuai dengan kebutuhan aplikasi atau algoritma yang digunakan. Dalam teknik pemrograman, struktur data berarti tata letak data yang berisi
+<p>Struktur data adalah cara untuk mengorganisir dan menyimpan data dalam sebuah sistem komputer sehingga data tersebut dapat diakses dan dimanipulasi dengan efisien. Struktur data merupakan konsep dasar dalam ilmu komputer dan pemrograman yang memungkinkan pengembang perangkat lunak untuk menyusun data dalam bentuk yang sesuai dengan kebutuhan aplikasi atau algoritma yang digunakan. Dalam teknik pemrograman, struktur data berarti tata letak data yang berisi
 kolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) atau pun
 kolom yang hanya digunakan untuk keperluan pemrograman yang tidak tampak
 oleh pengguna.Setiap baris dari kumpulan kolom-kolom tersebut dinamakan catatan (record). Lebar kolom untuk data dapat berubah dan bervariasi. Ada
 kolom yang lebarnya berubah secara dinamis sesuai masukan dari pengguna, dan
-juga ada kolom yang lebarnya tetap.
+juga ada kolom yang lebarnya tetap.</p>
 
 
 <b>Tipe Data</b>
 
-  Tipe data adalah jenis atau macam data di dalam suatu variable dalam bahasa
+<p>Tipe data adalah jenis atau macam data di dalam suatu variable dalam bahasa
 pemrograman. Jenis jenis tipe data disimpan dalam bentuk kode angka baik berupa kode
 ASCII dan kode laiinya contoh variable char dengan nilai ‘A’ disimpan
 dalam kode ASCII 65, maka yang dipanggil adalah kode 65 jika ingin
@@ -61,57 +61,58 @@ a) Linier : Stack, Queue, sertaList dan Multilist
 b) Non Linier : Pohon Biner dan Graph
 Pemakaian struktur data yang tepat didalam proses pemrograman akan
 menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program
-secara keseluruhan lebih efisien dan sederhana.
+secara keseluruhan lebih efisien dan sederhana.</p>
 
 <h2 id="js2">JobSheet 2 - Array, Pointer, Structure</h2>
 
   <b>Array</b>
-Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing
+<p>Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing
 elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses
-langsung (acak)
+langsung (acak)</p>
 
   <b>Pointer</b>
   
-Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda
+<p>Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda
 dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi
-alamat dari variable yang mempunyai nilai tertentu. 
+alamat dari variable yang mempunyai nilai tertentu.</p>
 
   <b>Structure (Struct)</b>
   
-Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi
+<p>Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi
 variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek
 yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe
 tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct
-digunakan.
+digunakan.</p>
 
   <b>ADT (Abstract Data Type) atau Tipe Data Bentukan</b>
   
-ADT adalah koleksi data dan operasi yang dapat digunakan untuk
+<p>ADT adalah koleksi data dan operasi yang dapat digunakan untuk
 memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk
 kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak
-secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.
+secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.</p>
 
 <h2 id="js3">JobSheet 3 - Single Linked List</h2>
 
   <b>Simpul/Nodes</b>
-Sebuah simpul/node berisi alamat dan kumpulan data, dalam sebuah
+  
+<p>Sebuah simpul/node berisi alamat dan kumpulan data, dalam sebuah
 simpul/node keduanya dibungkus menjadi sebuah objek berupa struct seperti
 berikut :
  struct node
  {
  int data;
  struct node *next;
- };
+ };</p>
 
    <b>Penggunakan Alokasi Memory</b>
    
-Ketika kita mempelajari tipe data array, nampak kelemahan tipe data ini adalah
+<p>Ketika kita mempelajari tipe data array, nampak kelemahan tipe data ini adalah
 sifatnya yang statis. Artinya ketika kita mendeklarasikan sebuah variable dengan
 tipe data array maka data yang kita deklarasikan disimpan pada memori harus
 dalam kondisi terurut. Selain itu selama program berjalan ukuran dari array
 bersifat tetap atau kita tidak dapat merubahnya. Adakalanya dalam
 pemrograman ukuran sebuah obyek belum dapat kita tentukan sampai program
-kita jalankan.
+kita jalankan.</p>
 
   <b>Single Link List</b>
     
@@ -125,7 +126,7 @@ menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.</
 
   <h2 id="js4">JobSheet 4 - Doubly Linked List</h2>
 
-Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama
+<p>Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama
 dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly
 link list memiliki 2 arah data yani next dan previous.
 Kelebihan Doubly link list dibandingkan dengan Single link list
@@ -143,39 +144,39 @@ Jenis proses Insertion()
 1. Penambahan simpul di depan
 2. Penambahan setelah simpul yang ditentukan
 3. Di simpul yang paling akhir
-4. Penambahan sebelum simpul yang ditentukan
+4. Penambahan sebelum simpul yang ditentukan</p>
 
 
      <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
 
     <b>Double Linked List</b>
    
-  Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.  
+<p>Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.  
 Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang
 berurutan pada arah tail ke head. Double linked list mempunyai fleksibilitas yang lebih tinggi daripada
-single linked list dalam perpindahan pada list. 
+single linked list dalam perpindahan pada list.</p>
 
   <b>Circular Linked List</b>
 
-  Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen.
+<p>Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen.
 Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular
 list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada
-double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
+double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.</p>
 
-    <h2 id="js6">JobSheet 6 - Stack</h2>
+  <h2 id="js6">JobSheet 6 - Stack</h2>
 
-    <b>Stack</b>
+  <b>Stack</b>
 
-  Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan
+<p>Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan
 demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen
 terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi,
 untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan untuk memindahkan
-dari tempat yang atas tersebut, disebut pop.
+dari tempat yang atas tersebut, disebut pop.</p>
 
 
   <b>Stack dengan Array</b>
 
-Ada beberapa cara untuk menyajikan sebuah stack tergantung pada permasalahan yang akan
+<p>Ada beberapa cara untuk menyajikan sebuah stack tergantung pada permasalahan yang akan
 diselesaikan. Bentuk penyajian stack bisa menggunakan tipe data array, tetapi sebenarnya penyajian
 stack menggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis,
 sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Meskipun demikian, array
@@ -183,30 +184,30 @@ bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya ele
 dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Pada suatu saat, ukuran
 stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow.
 Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian
-stack menggunakan array, yaitu Single stack dan Double stack.
+stack menggunakan array, yaitu Single stack dan Double stack.</p>
 
    <h2 id="js7">JobSheet 7 - Queue/Antrian</h2>
 
-    <b>Konsep Queue</b>
+  <b>Konsep Queue</b>
 
-Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli
+<p>Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli
 tiket pergi nonton ke bioskop. Dimana orang pertama yang memasuki antrian adalah yang pertama
 mendapat tiket masuk. Antrian menggunakan prinsip FIFO First in First Out. Item yang mendapatkan
-giliran pertama adalah item yang pertama keluar.
+giliran pertama adalah item yang pertama keluar.</p>
 
   <b>Spesifikasi Queue</b>
   
-  Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
+<p>Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
 sebgai berikut :
 • Enqueue: Add element to end of queue
 • Dequeue: Remove element from front of queue
 • IsEmpty: Check if queue is empty
 • IsFull: Check if queue is full
-• Peek: Get the value of the front of queue without removing it
+• Peek: Get the value of the front of queue without removing it</p>
 
   <b>Cara kerja Queue</b>
   
-Sebuah antrian memiliki proses sebagai berikut :
+<p>Sebuah antrian memiliki proses sebagai berikut :
 1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan
 terakhir dalam antrian.
 2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
@@ -217,7 +218,7 @@ meningkatkan indeks FRONT.
 5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
 6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
 7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
-8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
+8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.</p>
 
 
 
