@@ -113,15 +113,15 @@ bersifat tetap atau kita tidak dapat merubahnya. Adakalanya dalam
 pemrograman ukuran sebuah obyek belum dapat kita tentukan sampai program
 kita jalankan.
 
-    <b>Single Link List</b>
+  <b>Single Link List</b>
     
-Di dalam game Treasure Hunt, anda mulai menjelajahinya dengan mencari clue
+<p>Di dalam game Treasure Hunt, anda mulai menjelajahinya dengan mencari clue
 pertama. Di saat anda menemukannya, anda tidak menumukan harta karunnya
 tapi menemukan clue berikutnya dan begitu seterusnya sampai anda menemukan
 harta karun.
 Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data
 yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa
-menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.
+menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.</p>
 
   <h2 id="js4">JobSheet 4 - Doubly Linked List</h2>
 
