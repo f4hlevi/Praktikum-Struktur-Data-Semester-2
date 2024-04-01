@@ -36,10 +36,9 @@ perbedaan juga tidak begitu signifikan pada pemograman pascal.</p>
 
 <b>Struktur Data</b>
 
-<p>Struktur data adalah cara untuk mengorganisir dan menyimpan data dalam sebuah sistem komputer sehingga data tersebut dapat diakses dan dimanipulasi dengan efisien. Struktur data merupakan konsep dasar dalam ilmu komputer dan pemrograman yang memungkinkan pengembang perangkat lunak untuk menyusun data dalam bentuk yang sesuai dengan kebutuhan aplikasi atau algoritma yang digunakan. Dalam teknik pemrograman, struktur data berarti tata letak data yang berisi
-kolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) atau pun
-kolom yang hanya digunakan untuk keperluan pemrograman yang tidak tampak
-oleh pengguna.Setiap baris dari kumpulan kolom-kolom tersebut dinamakan catatan (record). Lebar kolom untuk data dapat berubah dan bervariasi. Ada
+<p>Struktur data adalah cara untuk mengorganisir dan menyimpan data dalam sebuah sistem komputer sehingga data tersebut dapat diakses dan dimanipulasi dengan efisien. Struktur data merupakan konsep dasar dalam ilmu komputer dan pemrograman yang memungkinkan pengembang perangkat lunak untuk menyusun data dalam bentuk yang sesuai dengan kebutuhan aplikasi atau algoritma yang digunakan. Dalam teknik pemrograman, struktur data berarti tata letak data yang berisikolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) atau punkolom yang hanya digunakan untuk keperluan pemrograman yang tidak tampakoleh pengguna.</p>
+  
+<p>Setiap baris dari kumpulan kolom-kolom tersebut dinamakan catatan (record). Lebar kolom untuk data dapat berubah dan bervariasi. Ada
 kolom yang lebarnya berubah secara dinamis sesuai masukan dari pengguna, dan
 juga ada kolom yang lebarnya tetap.</p>
 
@@ -50,16 +49,20 @@ juga ada kolom yang lebarnya tetap.</p>
 pemrograman. Jenis jenis tipe data disimpan dalam bentuk kode angka baik berupa kode
 ASCII dan kode laiinya contoh variable char dengan nilai ‘A’ disimpan
 dalam kode ASCII 65, maka yang dipanggil adalah kode 65 jika ingin
-menampilkan char dengan nilai ‘A’. Secara garis besar type data dapat dikategorikan menjadi :
-Type data sederhana.
-1. Type data sederhana tunggal, misalnya Integer, real, boolean dan karakter.
-2. Type data sederhana majemuk, misalnyaString (kumpulan data char)
-Struktur Data, meliputi:
-a. Struktur data sederhana, misalnya array dan record.
-b. Struktur data majemuk, yang terdiri dari:
+menampilkan char dengan nilai ‘A’. Secara garis besar type data dapat dikategorikan menjadi :</p>
+<p>Type data sederhana.</p>
+<ul>
+<li>1. Type data sederhana tunggal, misalnya Integer, real, boolean dan karakter.</li>
+<li>2. Type data sederhana majemuk, misalnyaString (kumpulan data char)</li>
+</ul>
+<p>Struktur Data, meliputi:</p>
+<ul>
+<li>a. Struktur data sederhana, misalnya array dan record.</li>
+<li>b. Struktur data majemuk, yang terdiri dari:
 a) Linier : Stack, Queue, sertaList dan Multilist
-b) Non Linier : Pohon Biner dan Graph
-Pemakaian struktur data yang tepat didalam proses pemrograman akan
+b) Non Linier : Pohon Biner dan Graph</li>
+</ul>
+<p>Pemakaian struktur data yang tepat didalam proses pemrograman akan
 menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program
 secara keseluruhan lebih efisien dan sederhana.</p>
 
@@ -119,8 +122,9 @@ kita jalankan.</p>
 <p>Di dalam game Treasure Hunt, anda mulai menjelajahinya dengan mencari clue
 pertama. Di saat anda menemukannya, anda tidak menumukan harta karunnya
 tapi menemukan clue berikutnya dan begitu seterusnya sampai anda menemukan
-harta karun.
-Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data
+harta karun.</p>
+
+<p>Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data
 yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa
 menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.</p>
 
@@ -128,31 +132,38 @@ menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.</
 
 <p>Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama
 dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly
-link list memiliki 2 arah data yani next dan previous.
-Kelebihan Doubly link list dibandingkan dengan Single link list
-1. DLL bisa berjalan dalam 2 arah ke depan dan kebelakang
-2. Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang
-menunjuk ke simpul yang akan dihapus
-3. Dapat melakukan proses insert() simpul lebih efisien
-Dalam single link list penghapusan simpul, pointer simpul data sebelumnya diperlukan dan untuk
+link list memiliki 2 arah data yani next dan previous.</p>
+<p>Kelebihan Doubly link list dibandingkan dengan Single link list</p>
+<ul>
+<li>1. DLL bisa berjalan dalam 2 arah ke depan dan kebelakang</li>
+<li>2. Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang
+menunjuk ke simpul yang akan dihapus</li>
+<li>3. Dapat melakukan proses insert() simpul lebih efisien</li>
+</ul>
+<p>Dalam single link list penghapusan simpul, pointer simpul data sebelumnya diperlukan dan untuk
 mendapatkannya terkadang list data diulang dari awal. Berbeda dengan doubly link list kita langsung
-dapat pointer simpul data sebelumnya menggunakan pointer previous.
-Kelemahan Dobly link list
+dapat pointer simpul data sebelumnya menggunakan pointer previous.</p>
+<p>Kelemahan Dobly link list</p>
+<ul>
 1. Setiap simpul DLL membutuhkan ruang memory tambahan untuk pointer 2 pointer
 2. Setiap operasi yang dilakukan harus mencantumkan pointer simpul sebelumnya.
-Jenis proses Insertion()
-1. Penambahan simpul di depan
-2. Penambahan setelah simpul yang ditentukan
-3. Di simpul yang paling akhir
-4. Penambahan sebelum simpul yang ditentukan</p>
+</ul>
 
+<p>Jenis proses Insertion()</p>
+<ul>
+<li>1. Penambahan simpul di depan</li>
+<li>2. Penambahan setelah simpul yang ditentukan</li>
+<li>3. Di simpul yang paling akhir</li>
+<li>4. Penambahan sebelum simpul yang ditentukan</li>
+</ul>
 
   <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
 
   <b>Double Linked List</b>
    
-<p>Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.  
-Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang
+<p>Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.</p>
+
+<p>Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang
 berurutan pada arah tail ke head. Double linked list mempunyai fleksibilitas yang lebih tinggi daripada
 single linked list dalam perpindahan pada list.</p>
 
@@ -181,8 +192,9 @@ diselesaikan. Bentuk penyajian stack bisa menggunakan tipe data array, tetapi se
 stack menggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis,
 sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Meskipun demikian, array
 bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal
-dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Pada suatu saat, ukuran
-stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow.
+dari suatu stack tidak melebihi batas maksimum banyaknya elemen array.</p>
+
+<p>Pada suatu saat, ukuranstack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow.
 Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian
 stack menggunakan array, yaitu Single stack dan Double stack.</p>
 
@@ -198,27 +210,28 @@ giliran pertama adalah item yang pertama keluar.</p>
   <b>Spesifikasi Queue</b>
   
 <p>Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
-sebgai berikut :
-• Enqueue: Add element to end of queue
-• Dequeue: Remove element from front of queue
-• IsEmpty: Check if queue is empty
-• IsFull: Check if queue is full
-• Peek: Get the value of the front of queue without removing it</p>
+sebgai berikut :</p>
+<ul>
+<li>• Enqueue: Add element to end of queue</li>
+<li>• Dequeue: Remove element from front of queue</li>
+<li>• IsEmpty: Check if queue is empty</li>
+<li>• IsFull: Check if queue is full</li>
+<li>• Peek: Get the value of the front of queue without removing it</li>
+</ul>
 
   <b>Cara kerja Queue</b>
   
-<p>Sebuah antrian memiliki proses sebagai berikut :
-1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan
-terakhir dalam antrian.
-2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
-3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru di
-posisi yang ditunjuk oleh REAR.
-4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT dan
-meningkatkan indeks FRONT.
-5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
-6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.
-7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
-8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.</p>
+<p>Sebuah antrian memiliki proses sebagai berikut :</p>
+<ul>
+<li>1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama danterakhir dalam antrian.</li>
+<li>2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.</li>
+<li>3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru diposisi yang ditunjuk oleh REAR.</li>
+<li>4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT danmeningkatkan indeks FRONT.</li>
+<li>5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.</li>
+<li>6. Sebelum dequeuing, kami memeriksa apakah antrian sudah kosong.</li>
+<li>7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.</li>
+<li>8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.</li>
+</ul>
 
 
 
