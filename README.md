@@ -173,7 +173,7 @@ stack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan te
 Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian
 stack menggunakan array, yaitu Single stack dan Double stack.
 
-   ""JobSheet 6 - Stack""
+   ""JobSheet 7 - Queue/Antrian""
 
     ""Konsep Queue""
 
