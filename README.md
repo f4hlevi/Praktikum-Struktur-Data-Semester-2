@@ -17,10 +17,10 @@
   <li><a href="#js5">Job Sheet 5 -  Double Linked List & Circular Linked List</a></li>
   <li><a href="#js6">Job Sheet 6 - Stack</a></li>
   <li><a href="#js7">Job Sheet 7 - Queue/Antrian</a></li>
-  <li><a href="#js8">Job Sheet 8 - Fungsi dan Prosedur</a></li>
-  <li><a href="#js9">Job Sheet 9 - Pointer</a></li>
-  <li><a href="#js10">Job Sheet 10 - Enum and Struct</a></li>
-  <li><a href="#js11">Job Sheet 11 - File Handling</a></li>
+  <li><a href="#js8">Job Sheet 8 - </a></li>
+  <li><a href="#js9">Job Sheet 9 - </a></li>
+  <li><a href="#js10">Job Sheet 10 - </a></li>
+  <li><a href="#js11">Job Sheet 11 - </a></li>
   
 <h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
 
