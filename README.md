@@ -147,9 +147,9 @@ Jenis proses Insertion()
 4. Penambahan sebelum simpul yang ditentukan</p>
 
 
-     <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
+  <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
 
-    <b>Double Linked List</b>
+  <b>Double Linked List</b>
    
 <p>Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.  
 Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang
