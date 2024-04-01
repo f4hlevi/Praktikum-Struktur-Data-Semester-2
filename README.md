@@ -34,7 +34,7 @@ menggunakan tingkatan prosedur. Pemograman ini merupakan pemograman yang
 berbeda dari pemograman lainnya misalnya VB, Delphi atau Pascal namun
 perbedaan juga tidak begitu signifikan pada pemograman pascal.
 
-""Struktur Data""
+<b>Struktur Data</b>
 
   Struktur data adalah cara untuk mengorganisir dan menyimpan data dalam sebuah sistem komputer sehingga data tersebut dapat diakses dan dimanipulasi dengan efisien. Struktur data merupakan konsep dasar dalam ilmu komputer dan pemrograman yang memungkinkan pengembang perangkat lunak untuk menyusun data dalam bentuk yang sesuai dengan kebutuhan aplikasi atau algoritma yang digunakan. Dalam teknik pemrograman, struktur data berarti tata letak data yang berisi
 kolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) atau pun
@@ -44,7 +44,7 @@ kolom yang lebarnya berubah secara dinamis sesuai masukan dari pengguna, dan
 juga ada kolom yang lebarnya tetap.
 
 
-""Tipe Data""
+<b>Tipe Data</b>
 
   Tipe data adalah jenis atau macam data di dalam suatu variable dalam bahasa
 pemrograman. Jenis jenis tipe data disimpan dalam bentuk kode angka baik berupa kode
@@ -65,18 +65,18 @@ secara keseluruhan lebih efisien dan sederhana.
 
 <h2 id="js2">JobSheet 2 - Array, Pointer, Structure</h2>
 
-  ""Array""
+  <b>Array</b>
 Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing
 elemen array diakses menggunakan indeks, dan elemen aarray dapat diakses
 langsung (acak)
 
-  ""Pointer""
+  <b>Pointer</b>
   
 Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda
 dengan variable biasa yang berisi nilai tertentu. Dengan kata lain, pointer berisi
 alamat dari variable yang mempunyai nilai tertentu. 
 
-  ""Structure (Struct)""
+  <b>Structure (Struct)</b>
   
 Dalam bahasa pemograman C sebuah Struct adalah kumpulan variable (berisi
 variable yang memiliki tipe-tipe yang berbeda) bernaung dalam satu nama objek
@@ -84,7 +84,7 @@ yang serumpun. Sebelum membuat sebuah Struct anda perlu menentukan tipe
 tipe data apa saja di dalamnya. Untuk menamai struct kata kunci Struct
 digunakan.
 
-  ""ADT (Abstract Data Type) atau Tipe Data Bentukan""
+  <b>ADT (Abstract Data Type) atau Tipe Data Bentukan</b>
   
 ADT adalah koleksi data dan operasi yang dapat digunakan untuk
 memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk
@@ -93,7 +93,7 @@ secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.
 
 <h2 id="js3">JobSheet 3 - Single Linked List</h2>
 
-  ""Simpul/Nodes""
+  <b>Simpul/Nodes</b>
 Sebuah simpul/node berisi alamat dan kumpulan data, dalam sebuah
 simpul/node keduanya dibungkus menjadi sebuah objek berupa struct seperti
 berikut :
@@ -103,7 +103,7 @@ berikut :
  struct node *next;
  };
 
-   ""Penggunakan Alokasi Memory""
+   <b>Penggunakan Alokasi Memory</b>
    
 Ketika kita mempelajari tipe data array, nampak kelemahan tipe data ini adalah
 sifatnya yang statis. Artinya ketika kita mendeklarasikan sebuah variable dengan
@@ -113,7 +113,7 @@ bersifat tetap atau kita tidak dapat merubahnya. Adakalanya dalam
 pemrograman ukuran sebuah obyek belum dapat kita tentukan sampai program
 kita jalankan.
 
-    ""Single Link List""
+    <b>Single Link List</b>
     
 Di dalam game Treasure Hunt, anda mulai menjelajahinya dengan mencari clue
 pertama. Di saat anda menemukannya, anda tidak menumukan harta karunnya
@@ -148,14 +148,14 @@ Jenis proses Insertion()
 
      <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
 
-    ""Double Linked List""
+    <b>Double Linked List</b>
    
   Double linked list Elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertamamenunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elementerakhir menunjuk NULL.  
 Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang
 berurutan pada arah tail ke head. Double linked list mempunyai fleksibilitas yang lebih tinggi daripada
 single linked list dalam perpindahan pada list. 
 
-  ""Circular Linked List""
+  <b>Circular Linked List</b>
 
   Circular list adalah bentuk lain dari linked list yang memberikan fleksibilitas dalam melewatkan elemen.
 Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular
@@ -164,7 +164,7 @@ double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen
 
     <h2 id="js6">JobSheet 6 - Stack</h2>
 
-    ""Stack""
+    <b>Stack</b>
 
   Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan
 demikian stack adalah struktur data yang menggunakan konsep LIFO. Dengan demikian, elemen
@@ -173,7 +173,7 @@ untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push. Dan un
 dari tempat yang atas tersebut, disebut pop.
 
 
-  ""Stack dengan Array""
+  <b>Stack dengan Array</b>
 
 Ada beberapa cara untuk menyajikan sebuah stack tergantung pada permasalahan yang akan
 diselesaikan. Bentuk penyajian stack bisa menggunakan tipe data array, tetapi sebenarnya penyajian
@@ -187,14 +187,14 @@ stack menggunakan array, yaitu Single stack dan Double stack.
 
    <h2 id="js7">JobSheet 7 - Queue/Antrian</h2>
 
-    ""Konsep Queue""
+    <b>Konsep Queue</b>
 
 Sebuah antrian sangat berguna pada pemograman struktur data. Hal ini sama dengan membeli
 tiket pergi nonton ke bioskop. Dimana orang pertama yang memasuki antrian adalah yang pertama
 mendapat tiket masuk. Antrian menggunakan prinsip FIFO First in First Out. Item yang mendapatkan
 giliran pertama adalah item yang pertama keluar.
 
-  ""Spesifikasi Queue""
+  <b>Spesifikasi Queue</b>
   
   Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi
 sebgai berikut :
@@ -204,7 +204,7 @@ sebgai berikut :
 • IsFull: Check if queue is full
 • Peek: Get the value of the front of queue without removing it
 
-  ""Cara kerja Queue""
+  <b>Cara kerja Queue</b>
   
 Sebuah antrian memiliki proses sebagai berikut :
 1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan
