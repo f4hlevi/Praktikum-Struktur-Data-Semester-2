@@ -17,10 +17,10 @@
   <li><a href="#js5">Job Sheet 5 -  Double Linked List & Circular Linked List</a></li>
   <li><a href="#js6">Job Sheet 6 - Stack</a></li>
   <li><a href="#js7">Job Sheet 7 - Queue/Antrian</a></li>
-  <li><a href="#js8">Job Sheet 8 - </a></li>
-  <li><a href="#js9">Job Sheet 9 - </a></li>
-  <li><a href="#js10">Job Sheet 10 - </a></li>
-  <li><a href="#js11">Job Sheet 11 - </a></li>
+  <li><a href="#js8">Job Sheet 8 - Bubble and Insertion Sort</a></li>
+  <li><a href="#js9">Job Sheet 9 - Selection and Merge Sort</a></li>
+  <li><a href="#js10">Job Sheet 10 - Shell and Quick Sort</a></li>
+  <li><a href="#js11">Job Sheet 11 - Linear and Binary Search</a></li>
   
 <h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
 
@@ -233,13 +233,29 @@ sebgai berikut :</p>
 <li>8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.</li>
 </ul>
 
-  <h2 id="js7">JobSheet 7 - Queue/Antrian</h2>
+  <h2 id="js8">JobSheet 8 - Bubble and Insertion Sort</h2>
+
+  <b>Sorting (Pengurutan)</b> 
+
+<p>merupakan proses pengurutan data yang sebelumnya disusun secara acak sehingga tersusun secara teratur menurut aturan tertentu.</p>
+<p>Teknik Sorting yang umum digunakan : buble sort, insertion sort, selection sort, quicksort, mergesort, heapsort, dan binary sort</p>
+
+  <b>Buble Sort</b>
+  
+<p>metode/algoritma pengurutan dengan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan. Jika tidak ada perubahan berarti data sudah terurut. Disebut pengurutan gelembung karena masing-masing kunci akan dengan lambat menggelembung ke posisinya yang tepat.</p>
+
+  <b>Insertion Sort</b>
+  
+<p>merupakan sebuah teknik pengurutan dengan cara membandingkan dan mengurutkan dua data pertama pada array, kemudian membandingkan data para array berikutnya apakah sudah berada di tempat semestinya. Algoritma insertion sort seperti proses pengurutan kartu yang berada di tangan kita .</p>
+
+  <h2 id="js9">JobSheet 9 - Selection and Merge Sort</h2>
 
 
 
 
+  <h2 id="js10">JobSheet 10 - Shell and Quick Sort</h2>
 
 
   
 
-
+  <h2 id="js11">JobSheet 11 - Linear and Binary Search</h2>
