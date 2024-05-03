@@ -250,6 +250,28 @@ sebgai berikut :</p>
 
   <h2 id="js9">JobSheet 9 - Selection and Merge Sort</h2>
 
+  <b>Selection Sort</b> 
+
+<p>merupakan sebuah algoritma yang digunakan untuk mencari dna memilih element/data terkecil dalam sebuah list yang belum tersusun dalam setiap iterasi dan menempatkan elemen terkecil di urutan paling depan dari urutan list data.</p>
+
+<b>Cara kerja Slecetion Sort:</b>
+
+Tentukan elemen pertama dari urutan menjadi elemen terkecil masukkan sebagai elemen “minimum”.
+Bandingkan mnimum dengan urutan elemen kedua. Jika elemen kedua lebih kcil dibandingkan minimum, jadikan elemen kedua sebagai minimum. Bandingkan kembali minimum dengan elemen ketiga. Lakukan secara terus menerus samapai dengan elemen yang terakhir.
+Setelah setiap perulangan, minimum ditempatkan di paling depan urutan list data
+pada setiap pengulangan, indeksasi (pemberian alamat) dimulai dari elemen pertama dari list. langkah 1-3 dilakukan berulang kali samapi keseluruhan elemen digantikan pada posisi yang terurut.
+
+  <b>Merge Sort</b> 
+
+<p>merupakan pengurutan gabungan terus-menerus memotong daftar menjadi beberapa subdaftar hingga masing-masing hanya memiliki satu item, lalu menggabungkan subdaftar tersebut ke dalam daftar yang diurutkan.</p>
+
+Divide-and-conquer memecahkan sub-masalah secara rekursif; setiap submasalah harus lebih kecil dari masalah aslinya, dan masing-masing harus mempunyai kasus dasar. Algoritme bagi-dan-taklukkan memiliki tiga bagian::
+
+Bagilah masalah menjadi beberapa bagian kecil dari masalah yang sama
+Taklukkan submasalah dengan menyelesaikannya secara rekursif. Selesaikan submasalah sebagai kasus dasar jika submasalah tersebut cukup kecil.
+Untuk menemukan solusi dari masalah awal, gabungkan solusi dari submasalah.
+
+
 
 
 
