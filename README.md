@@ -233,6 +233,8 @@ sebgai berikut :</p>
 <li>8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.</li>
 </ul>
 
+  <h2 id="js7">JobSheet 7 - Queue/Antrian</h2>
+
 
 
 
