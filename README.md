@@ -281,7 +281,22 @@ sebgai berikut :</p>
 
   <h2 id="js10">JobSheet 10 - Shell and Quick Sort</h2>
 
+✦ Shell Sort : merupakan sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion sort.
 
+Dalam pengurutan Shell Sort, elemen/data diurutkan dengan interval yang terukur. Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan.
+
+Cara kerja Shell Sort:
+
+Urutkan array yang ada
+Pada fase pertama, jika besar array N=8 maka jarak interval elemen menggunakan rumus N/2 = 4, akan dibandingkan dan ditukar jika belum sesuai urutan.
+Pada pengulangan kedua rumus formula interval yang digunakan N/4 = 8/4 = 2, Elemen ke 2 dan ke 4 dibandingkan sesuai rumus interval = 2, elemen ke 0 dan 2 juga dibandingkan.
+Proses yang sama berlaku untuk elemen yang tersisa.
+Pada akhirnya samapai pada fase akhir di saat interval N/8 = 8/8 = 1, elemen dengan interval 1 diurutkan
+✦ Quick Sort : Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.
+
+Proses utama dalam quickSort adalah partisi() . Target dari partisi adalah untuk menempatkan pivot (elemen apa pun dapat dipilih menjadi pivot) pada posisi yang benar dalam susunan yang diurutkan dan meletakkan semua elemen yang lebih kecil di sebelah kiri pivot, dan semua elemen yang lebih besar di sebelah kanan pivot .
+
+Partisi dilakukan secara rekursif pada setiap sisi pivot setelah pivot ditempatkan pada posisi yang benar dan akhirnya mengurutkan array.
   
 
   <h2 id="js11">JobSheet 11 - Linear and Binary Search</h2>
