@@ -275,28 +275,53 @@ sebgai berikut :</p>
 <li>3.Untuk menemukan solusi dari masalah awal, gabungkan solusi dari submasalah.</li>
 </ul>
 
-
-
-
-
   <h2 id="js10">JobSheet 10 - Shell and Quick Sort</h2>
 
-✦ Shell Sort : merupakan sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion sort.
+  <b>Shell Sort</b>
+<p>Shell Sort merupakan sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion sort.</p>
 
-Dalam pengurutan Shell Sort, elemen/data diurutkan dengan interval yang terukur. Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan.
+<p>Dalam pengurutan Shell Sort, elemen/data diurutkan dengan interval yang terukur. Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan.</p>
 
-Cara kerja Shell Sort:
+<b>Cara kerja Shell Sort:</b>
 
-Urutkan array yang ada
-Pada fase pertama, jika besar array N=8 maka jarak interval elemen menggunakan rumus N/2 = 4, akan dibandingkan dan ditukar jika belum sesuai urutan.
-Pada pengulangan kedua rumus formula interval yang digunakan N/4 = 8/4 = 2, Elemen ke 2 dan ke 4 dibandingkan sesuai rumus interval = 2, elemen ke 0 dan 2 juga dibandingkan.
-Proses yang sama berlaku untuk elemen yang tersisa.
-Pada akhirnya samapai pada fase akhir di saat interval N/8 = 8/8 = 1, elemen dengan interval 1 diurutkan
-✦ Quick Sort : Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.
+<p>Urutkan array yang ada</p>
+<ul>
+<li>1.Pada fase pertama, jika besar array N=8 maka jarak interval elemen menggunakan rumus N/2 = 4, akan dibandingkan dan ditukar jika belum sesuai urutan.</li>
+<li>2.Pada pengulangan kedua rumus formula interval yang digunakan N/4 = 8/4 = 2, Elemen ke 2 dan ke 4 dibandingkan sesuai rumus interval = 2, elemen ke 0 dan 2 juga dibandingkan.</li>
+<li>3.Proses yang sama berlaku untuk elemen yang tersisa.</li>
+<li>4.Pada akhirnya samapai pada fase akhir di saat interval N/8 = 8/8 = 1, elemen dengan interval 1 diurutkan.</li>
+</ul>
 
-Proses utama dalam quickSort adalah partisi() . Target dari partisi adalah untuk menempatkan pivot (elemen apa pun dapat dipilih menjadi pivot) pada posisi yang benar dalam susunan yang diurutkan dan meletakkan semua elemen yang lebih kecil di sebelah kiri pivot, dan semua elemen yang lebih besar di sebelah kanan pivot .
+  <b>Quick Sort</b>
+<p>Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.</p>
 
-Partisi dilakukan secara rekursif pada setiap sisi pivot setelah pivot ditempatkan pada posisi yang benar dan akhirnya mengurutkan array.
+<p>Proses utama dalam quickSort adalah partisi() . Target dari partisi adalah untuk menempatkan pivot (elemen apa pun dapat dipilih menjadi pivot) pada posisi yang benar dalam susunan yang diurutkan dan meletakkan semua elemen yang lebih kecil di sebelah kiri pivot, dan semua elemen yang lebih besar di sebelah kanan pivot.</p>
+
+<p>Partisi dilakukan secara rekursif pada setiap sisi pivot setelah pivot ditempatkan pada posisi yang benar dan akhirnya mengurutkan array.</p>
   
 
   <h2 id="js11">JobSheet 11 - Linear and Binary Search</h2>
+
+  <b>Algoritma pencarian (searching algorithm)</b> 
+<p>Adalah algoritma yang menerima sebuah argumen kunci dan dengan langkah-langkah tertentu akan mencari rekaman dengan kunci tersebut. Setelah proses pencarian dilaksanakan, akan diperoleh salah satu dari dua kemungkinan, yaitu data yang dicari ditemukan (successful) atau tidak ditemukan (unsuccessful).</p>
+
+<b>Linear Search</b>
+
+<p>Linear Search merupakan algoritma pencarian berurutan yang dimulai dari satu ujung dan menelusuri setiap elemen daftar hingga elemen yang diinginkan ditemukan, jika tidak, pencarian akan berlanjut hingga akhir kumpulan data.</p>
+
+<p>Search Linear dilakukan dengan mengulangi semua elemen array dan memeriksa apakah elemen saat ini sama dengan elemen target. Jika ditemukan elemen apa pun yang sama dengan elemen target, kembalikan indeks elemen saat ini. Sebaliknya, jika tidak ada elemen yang sama dengan elemen target, kembalikan -1 karena elemen tersebut tidak ditemukan.</p>
+
+<b>Binary Search</b>
+
+<p>Algoritma pencarian yang digunakan untuk menemukan posisi nilai target dalam array yang diurutkan . Ia bekerja dengan membagi interval pencarian menjadi dua berulang kali hingga nilai target ditemukan atau interval tersebut kosong.</p>
+
+<b>Berikut Langkah-langkahnya:<b/>
+<ul>
+<li>1.Data diambil dari posisi 1 sampai posisi akhir N</li>
+<li>2.Cari posisi data tengah dengan rumus: (posisi awal + posisi akhir) / 2</li>
+<li>3.Kemudian data yang dicari dibandingkan dengan data yang di tengah, apakah sama atau lebih kecil, atau lebih besar</li>
+<li>4.Jika lebih besar, maka proses pencarian dicari dengan posisi awal adalah posisi tengah + 1</li>
+<li>5.Jika lebih kecil, maka proses pencarian dicari dengan posisi akhir adalah posisi tengah – 1</li>
+<li>6.Jika data sama, berarti ketemu.</li>
+</ul>
+
