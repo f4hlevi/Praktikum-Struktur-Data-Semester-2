@@ -21,6 +21,7 @@
   <li><a href="#js9">Job Sheet 9 - Selection and Merge Sort</a></li>
   <li><a href="#js10">Job Sheet 10 - Shell and Quick Sort</a></li>
   <li><a href="#js11">Job Sheet 11 - Linear and Binary Search</a></li>
+  <li><a href="#js12">Job Sheet 12 - Tree</a></li>
   
 <h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
 
@@ -327,5 +328,15 @@ sebgai berikut :</p>
 
   <h2 id="js12">JobSheet 12 - Tree</h2>
 
-  
+<b>Tree Traversal atau melintasi sebuah pohon data/tree</b>
+<p>Mengunjungi semua simpul (node) yang ada pada pohon tersebut.</p>
+
+<p>Setiap Tree adalah kombinasi dari sebuah simpul yang menyimpan data dan 2-sub tree</p>
+
+<p>Berdasarkan urutan yang akan dilakukan, terdapat 3 cara melintasi tree:</p>
+<ul>
+<li>1.Inorder Traversal, langkah-langkahnya: Kunjungi semua nodes/simpul di sebelah kiri subtree, kemudian kunjungi root node/simpul paling atas. Terakhir, Kunjungi semua simpul yang ada di kanan subtree.</li>
+<li>2.Preorder Traversal, langkah-langkahnya: kunjungi simpul paling atas, kemudian Kunjungi semua simpul di sebelah kiri subtree. Terakhir, Kunjungi semua simpul yang ada di kanan subtree</li>
+<li>3.Postorder Traversal, langkah-langkahnya: Kunjungi semua simpul di sebelah kiri subtree, kemudian Kunjungi semua simpul di sebelah kanan subtree. Terakhir, kunjungi simpul paling atas.</li>
+</ul>
 
