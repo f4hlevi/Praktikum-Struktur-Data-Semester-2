@@ -22,6 +22,7 @@
   <li><a href="#js10">Job Sheet 10 - Shell and Quick Sort</a></li>
   <li><a href="#js11">Job Sheet 11 - Linear and Binary Search</a></li>
   <li><a href="#js12">Job Sheet 12 - Tree</a></li>
+  <li><a href="#js13">Job Sheet 13 - Graphs</a></li>
   
 <h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
 
@@ -340,3 +341,24 @@ sebgai berikut :</p>
 <li>3.Postorder Traversal, langkah-langkahnya: Kunjungi semua simpul di sebelah kiri subtree, kemudian Kunjungi semua simpul di sebelah kanan subtree. Terakhir, kunjungi simpul paling atas.</li>
 </ul>
 
+  <h2 id="js13">JobSheet 13 - Graphs</h2>
+
+  <b>Breadth-First Search (BFS)</b>
+<p>Breadth-First Search (BFS) merupakan teknik berbasis titik untuk menemukan jalur terpendek dalam grafik. Dengan menggunakan struktur data Antrian (Queue) yang mengikuti first in first out (FIFO).</p>
+
+<p>Cara kerjanya yaitu Satu simpul dipilih pada suatu waktu ketika simpul tersebut dikunjungi dan ditandai, kemudian simpul yang berdekatan dikunjungi dan disimpan dalam antrian.</p>
+
+  <b>Depth First Search (DFS)</b>
+<p>Depth First Search (DFS) merupakan teknik berbasis tepi (edge) yang menggunakan struktur data Stack dan melakukan dua tahap, yaitu;</p>
+<ul>
+<li>1.Simpul yang dikunjungi pertama dimasukkan ke dalam tumpukan.</li>
+<li>2.Jika tidak ada simpul, maka simpul yang dikunjungi akan ditampilkan.</li>
+</ul>
+
+<p>Cara kerja algoritma DFS;</p>
+<ul>
+<li>1.Dimulai dengan meletakkan salah satu dari titik graph di atas sebuah tumpukan.</li>
+<li>2.Ambil item paling atas dari tumpukan dan tambahkan dalam daftar titik yang telah dikunjungi</li>
+<li>3.Buatlah sebuah daftar dari titik yang segaris lurus dengannya. Tambahkan satu yang mana belum dikunjungi pada tumpukan paling atas.</li>
+<li>4.Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.</li>
+</ul>
