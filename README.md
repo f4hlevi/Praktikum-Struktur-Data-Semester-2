@@ -104,7 +104,7 @@ kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak
 secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.</p>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 id="js3">JobSheet 3 - Single Linked List</h2>
+<h1 align="start"> <img src="https://media4.giphy.com/media/qlOso7alCUTiAX7aG5/giphy.webp?cid=ecf05e47r6t8w6rx9xkffny63i2ini21qgo0vxwh4l4vu6iq&ep=v1_stickers_search&rid=giphy.webp&ct=s" width="40" ><h2 id="js3">JobSheet 3 - Single Linked List</h2><img src="https://media4.giphy.com/media/PhCW0WCeQcTixaoouV/100.webp?cid=ecf05e47r6t8w6rx9xkffny63i2ini21qgo0vxwh4l4vu6iq&ep=v1_stickers_search&rid=100.webp&ct=s" width="100" ></h1>
 
   <b>Simpul/Nodes</b>
   
@@ -137,8 +137,9 @@ harta karun.</p>
 <p>Sebuah linked list sama halnya dengan logika di atas, merupakan sebuah data
 yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa
 menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js4">JobSheet 4 - Doubly Linked List</h2>
+  <h1 align="end"> <img src="https://media3.giphy.com/media/ZIpTnlApULm08DRxsc/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ><h2 id="js4">JobSheet 4 - Doubly Linked List</h2><img src="https://media4.giphy.com/media/14APLG463ouIBK5J4W/200w.webp?cid=ecf05e47pyy7etm9uo8b3rvenslpxf0wg1v798g6at9491zh&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ></h1>
 
 <p>Doubly Linked List (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama
 dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly
@@ -166,8 +167,9 @@ dapat pointer simpul data sebelumnya menggunakan pointer previous.</p>
 <li>3. Di simpul yang paling akhir</li>
 <li>4. Penambahan sebelum simpul yang ditentukan</li>
 </ul>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2>
+  <h1 align="start"> <img src="https://media3.giphy.com/media/taI6It7JfnbhtzZUZc/200w.webp?cid=ecf05e47qmgvyzohxfqc0jbuxunu1r64oi89m3k8snv3nwi8&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ><h2 id="js5">JobSheet 5 - Double Linked List & Circular Linked List</h2><img src="https://media0.giphy.com/media/6GFsg3WbdP9BIOXWBw/200w.webp?cid=ecf05e47r6t8w6rx9xkffny63i2ini21qgo0vxwh4l4vu6iq&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ></h1>
 
   <b>Double Linked List</b>
    
@@ -183,8 +185,9 @@ single linked list dalam perpindahan pada list.</p>
 Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. Pada circular
 list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada
 double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js6">JobSheet 6 - Stack</h2>
+  <h1 align="end"> <img src="https://media3.giphy.com/media/8pe03qgzN50U4B7W7K/200.webp?cid=ecf05e47r6t8w6rx9xkffny63i2ini21qgo0vxwh4l4vu6iq&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ><h2 id="js6">JobSheet 6 - Stack</h2><img src="https://media0.giphy.com/media/d7nE5VepaZsZ9zXht0/200w.webp?cid=ecf05e47xvhs20bn4au1a2dnvqkf5p2bgo6slurhjk0jrwqx&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ></h1>
 
   <b>Stack</b>
 
@@ -207,8 +210,9 @@ dari suatu stack tidak melebihi batas maksimum banyaknya elemen array.</p>
 <p>Pada suatu saat, ukuranstack akan sama dengan ukuran array. Bila diteruskan menambah data, maka akan terjadi overflow.
 Oleh karena itu, perlu ditambahkan data untuk mencatat posisi ujung stack. Ada dua macam penyajian
 stack menggunakan array, yaitu Single stack dan Double stack.</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-   <h2 id="js7">JobSheet 7 - Queue/Antrian</h2>
+   <h1 align="start"> <img src="https://media2.giphy.com/media/l378jPrN9utcV2Qgg/200w.webp?cid=ecf05e470yguharj8m73hatyc3jvud0qvwpbbsnfppkfzq5r&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ><h2 id="js7">JobSheet 7 - Queue/Antrian</h2><img src="https://media0.giphy.com/media/dy8uuPWCzQrMA/200.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ></h1>
 
   <b>Konsep Queue</b>
 
@@ -242,8 +246,9 @@ sebgai berikut :</p>
 <li>7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.</li>
 <li>8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.</li>
 </ul>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js8">JobSheet 8 - Bubble and Insertion Sort</h2>
+  <h1 align="end"> <img src="https://media0.giphy.com/media/h8DCmboIm0MRwAIL9E/giphy.webp?cid=ecf05e474dtlpimjq09erzwga6m80gp92fe5806dg6ymhubg&ep=v1_stickers_search&rid=giphy.webp&ct=s" width="100" ><h2 id="js8">JobSheet 8 - Bubble and Insertion Sort</h2>mg src="https://media3.giphy.com/media/BLLVLetSfovbdQ7Jif/giphy.webp?cid=ecf05e476lz2cknrv79mtdwpkxao22lshdjdd1b11j7evlni&ep=v1_stickers_search&rid=giphy.webp&ct=s" width="100" ></h1>
 
   <b>Sorting (Pengurutan)</b> 
 
@@ -257,8 +262,9 @@ sebgai berikut :</p>
   <b>Insertion Sort</b>
   
 <p>Insertion Sort merupakan sebuah teknik pengurutan dengan cara membandingkan dan mengurutkan dua data pertama pada array, kemudian membandingkan data para array berikutnya apakah sudah berada di tempat semestinya. Algoritma insertion sort seperti proses pengurutan kartu yang berada di tangan kita .</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js9">JobSheet 9 - Selection and Merge Sort</h2>
+  <h1 align="start"> <img src="https://media2.giphy.com/media/SsefNnwrN5qwI5QRTt/200w.webp?cid=ecf05e475cdphy33rzwqxorpf3nzuvn5n2tfy5qtyv67h0if&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ><h2 id="js9">JobSheet 9 - Selection and Merge Sort</h2><img src="https://media0.giphy.com/media/h2m0y57KG365rZZOP5/200.webp?cid=ecf05e475cdphy33rzwqxorpf3nzuvn5n2tfy5qtyv67h0if&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ></h1>
 
   <b>Selection Sort</b> 
 
@@ -284,8 +290,9 @@ sebgai berikut :</p>
 <li>2.Taklukkan submasalah dengan menyelesaikannya secara rekursif. Selesaikan submasalah sebagai kasus dasar jika submasalah tersebut cukup kecil.</li>
 <li>3.Untuk menemukan solusi dari masalah awal, gabungkan solusi dari submasalah.</li>
 </ul>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js10">JobSheet 10 - Shell and Quick Sort</h2>
+  <h1 align="end"> <img src="https://media2.giphy.com/media/H1RjXpw33ukP3IcXik/giphy.webp?cid=ecf05e47uar4hpy83jj4u9qn2ejmp49ek3bey2s3j6vnk2l2&ep=v1_stickers_search&rid=giphy.webp&ct=s" width="100" ><h2 id="js10">JobSheet 10 - Shell and Quick Sort</h2><img src="https://i.gifer.com/origin/fd/fdf70f5f4989f9c08f033da50c38170e_w200.webp" width="100" ></h1>
 
   <b>Shell Sort</b>
 <p>Shell Sort merupakan sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion sort.</p>
@@ -308,9 +315,10 @@ sebgai berikut :</p>
 <p>Proses utama dalam quickSort adalah partisi() . Target dari partisi adalah untuk menempatkan pivot (elemen apa pun dapat dipilih menjadi pivot) pada posisi yang benar dalam susunan yang diurutkan dan meletakkan semua elemen yang lebih kecil di sebelah kiri pivot, dan semua elemen yang lebih besar di sebelah kanan pivot.</p>
 
 <p>Partisi dilakukan secara rekursif pada setiap sisi pivot setelah pivot ditempatkan pada posisi yang benar dan akhirnya mengurutkan array.</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
   
 
-  <h2 id="js11">JobSheet 11 - Linear and Binary Search</h2>
+  <h1 align="start"> <img src="https://cdn-icons-png.flaticon.com/256/7649/7649205.png" width="100" ><h2 id="js11">JobSheet 11 - Linear and Binary Search</h2><img src="https://media1.giphy.com/media/quzZylfBesCkOFLx7w/200.webp?cid=ecf05e47fonjt2qvhje7womsnts9zx12h9c5uvn418wpt025&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ></h1>
 
   <b>Algoritma pencarian (searching algorithm)</b> 
 <p>Adalah algoritma yang menerima sebuah argumen kunci dan dengan langkah-langkah tertentu akan mencari rekaman dengan kunci tersebut. Setelah proses pencarian dilaksanakan, akan diperoleh salah satu dari dua kemungkinan, yaitu data yang dicari ditemukan (successful) atau tidak ditemukan (unsuccessful).</p>
@@ -334,8 +342,10 @@ sebgai berikut :</p>
 <li>5.Jika lebih kecil, maka proses pencarian dicari dengan posisi akhir adalah posisi tengah – 1</li>
 <li>6.Jika data sama, berarti ketemu.</li>
 </ul>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js12">JobSheet 12 - Tree</h2>
+  <h1 align="start"> <img src="https://media2.giphy.com/media/l378jPrN9utcV2Qgg/200w.webp?cid=ecf05e470yguharj8m73hatyc3jvud0qvwpbbsnfppkfzq5r&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ><h2 id="js7"><h2 id="js12">JobSheet 12 - Tree</h2><img src="https://media0.giphy.com/media/dy8uuPWCzQrMA/200.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ></h1>
+
 
 <b>Tree Traversal atau melintasi sebuah pohon data/tree</b>
 <p>Mengunjungi semua simpul (node) yang ada pada pohon tersebut.</p>
@@ -348,8 +358,10 @@ sebgai berikut :</p>
 <li>2.Preorder Traversal, langkah-langkahnya: kunjungi simpul paling atas, kemudian Kunjungi semua simpul di sebelah kiri subtree. Terakhir, Kunjungi semua simpul yang ada di kanan subtree</li>
 <li>3.Postorder Traversal, langkah-langkahnya: Kunjungi semua simpul di sebelah kiri subtree, kemudian Kunjungi semua simpul di sebelah kanan subtree. Terakhir, kunjungi simpul paling atas.</li>
 </ul>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <h2 id="js13">JobSheet 13 - Graphs</h2>
+
+  <h1 align="start"> <img src="https://media2.giphy.com/media/0TtX2qqpxp3pIafzio/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" > <h2 id="js1"><h2 id="js13">JobSheet 13 - Graphs</h2><img src="https://media1.giphy.com/media/kimWBtJDjWcwFH2nRB/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ></h1>
 
   <b>Breadth-First Search (BFS)</b>
 <p>Breadth-First Search (BFS) merupakan teknik berbasis titik untuk menemukan jalur terpendek dalam grafik. Dengan menggunakan struktur data Antrian (Queue) yang mengikuti first in first out (FIFO).</p>
@@ -370,3 +382,4 @@ sebgai berikut :</p>
 <li>3.Buatlah sebuah daftar dari titik yang segaris lurus dengannya. Tambahkan satu yang mana belum dikunjungi pada tumpukan paling atas.</li>
 <li>4.Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.</li>
 </ul>
+<img src="img/wave.png" width="100%" >
