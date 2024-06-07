@@ -1,4 +1,9 @@
-# Praktikum-Struktur-Data-Semester-2
+<img src="https://media3.giphy.com/media/sWFYgYFjHGugleQdO7/giphy.gif?cid=ecf05e47lgb28lxs9ulpwk1n6nflnds4oacv6l2u9nuu6v91&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="100%"  >
+
+
+<h1 align="center"> <img src="https://media4.giphy.com/media/rYbjgltjQzyYueGHnT/200.webp?cid=ecf05e47lgb28lxs9ulpwk1n6nflnds4oacv6l2u9nuu6v91&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ># Praktikum-Struktur-Data-Semester-2 <img src="https://media4.giphy.com/media/rYbjgltjQzyYueGHnT/200.webp?cid=ecf05e47lgb28lxs9ulpwk1n6nflnds4oacv6l2u9nuu6v91&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" > </h1>
+ <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 
 👨‍🎓 Nama : Fajri Alhidra Fahlevi
 
@@ -24,7 +29,7 @@
   <li><a href="#js12">Job Sheet 12 - Tree</a></li>
   <li><a href="#js13">Job Sheet 13 - Graphs</a></li>
   
-<h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2>
+<h1 align="start"> <img src="https://media2.giphy.com/media/0TtX2qqpxp3pIafzio/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" > <h2 id="js1">JobSheet 1 - Pengenalan Struktur Data</h2><img src="https://media1.giphy.com/media/kimWBtJDjWcwFH2nRB/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ></h1>
 
 <p>Pemograman dalam struktur data ada beberapa macam. Salah satunya
 adalah pemograman C. Dalam pemograman ini biasanya menggunakan variable
@@ -67,8 +72,10 @@ b) Non Linier : Pohon Biner dan Graph</li>
 <p>Pemakaian struktur data yang tepat didalam proses pemrograman akan
 menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program
 secara keseluruhan lebih efisien dan sederhana.</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2 id="js2">JobSheet 2 - Array, Pointer, Structure</h2>
+
+<h1 align="end"> <img src="https://media0.giphy.com/media/oy3pwvu2WbY22fOWbz/200w.webp?cid=ecf05e47xix52hujg47k4bqf75tvnytk9fb0o0wfqvbuobf7&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" ><h2 id="js2">JobSheet 2 - Array, Pointer, Structure</h2><img src="https://media0.giphy.com/media/U8mQgtp7EJif9AfgQB/200.webp?cid=ecf05e47pyy7etm9uo8b3rvenslpxf0wg1v798g6at9491zh&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ></h1>
 
   <b>Array</b>
 <p>Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing
@@ -95,6 +102,7 @@ digunakan.</p>
 memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk
 kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak
 secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <h2 id="js3">JobSheet 3 - Single Linked List</h2>
 
