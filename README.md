@@ -382,4 +382,4 @@ sebgai berikut :</p>
 <li>3.Buatlah sebuah daftar dari titik yang segaris lurus dengannya. Tambahkan satu yang mana belum dikunjungi pada tumpukan paling atas.</li>
 <li>4.Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.</li>
 </ul>
-<img src="img/wave.png" width="100%" >
+<img src="wave.png" width="100%" >
